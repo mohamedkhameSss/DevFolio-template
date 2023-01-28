@@ -1,0 +1,834 @@
+/* global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* navigation  */
+nav .x1 {
+    position: relative;
+    overflow: hidden;
+    font-weight: 700;
+
+}
+
+nav .x1::after {
+    content: '';
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    right: 100%;
+    bottom: 10%;
+    transition: all .5s;
+
+}
+
+nav .x1:hover::after {
+    right: 25%;
+}
+
+/* animation component  */
+.animation-head::after {
+    content: '|';
+    animation-name: move;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+
+    1% {
+        content: 'D|';
+    }
+
+    2% {
+        content: 'De|';
+    }
+
+    3% {
+        content: 'Des|';
+    }
+
+    4% {
+        content: 'Desi|';
+    }
+
+    5% {
+        content: 'Desig|';
+    }
+
+    6% {
+        content: 'Design|';
+    }
+
+    7% {
+        content: 'Designer|';
+    }
+
+    8% {
+        content: 'Designer';
+    }
+
+    9% {
+        content: 'Designer|';
+    }
+
+    10% {
+        content: 'Design|';
+    }
+
+    11% {
+        content: 'Desig|';
+    }
+
+    12% {
+        content: 'Desi|';
+    }
+
+    13% {
+        content: 'De|';
+    }
+
+    14% {
+        content: 'D|';
+    }
+
+    15% {
+        content: '|';
+    }
+
+    16% {
+        content: 'F|';
+    }
+
+    17% {
+        content: 'Fr|';
+    }
+
+    18% {
+        content: 'Free|';
+
+    }
+
+
+    19% {
+        content: 'Freela|';
+    }
+
+    20% {
+        content: 'Freelanc|';
+    }
+
+    21% {
+        content: 'Freelance|';
+
+    }
+
+    22% {
+        content: 'Freelancer|';
+    }
+
+    23% {
+        content: 'Freelancer';
+
+    }
+
+    24% {
+        content: 'Freelance|';
+    }
+
+    25% {
+        content: 'Freelanc|';
+    }
+
+    26% {
+        content: 'Freela|';
+    }
+
+    27% {
+        content: 'Freel|';
+    }
+
+    28% {
+        content: 'Free|';
+    }
+
+    29% {
+        content: 'Free|';
+    }
+
+    30% {
+        content: 'Fre|';
+    }
+
+    31% {
+        content: 'Fr|';
+    }
+
+    32% {
+        content: 'F|';
+    }
+
+    33% {
+        content: '|';
+    }
+
+    34% {
+        content: 'P|';
+    }
+
+    35% {
+        content: ' Ph|';
+
+    }
+
+    36% {
+        content: 'Pho|';
+    }
+
+    37% {
+        content: 'Photo|';
+
+    }
+
+    38% {
+        content: 'Photog|';
+    }
+
+    39% {
+        content: 'Photogra|';
+
+    }
+
+    40% {
+        content: 'Photograp|';
+    }
+
+    41% {
+        content: 'Photographe|';
+
+    }
+
+    42% {
+        content: 'Photographer|';
+    }
+
+    43% {
+        content: 'Photographer|';
+
+    }
+
+    44% {
+        content: 'Photographer';
+
+    }
+
+    45% {
+        content: 'Photographer|';
+
+    }
+
+    46% {
+        content: 'Photographer';
+
+    }
+
+    47% {
+        content: 'Photographer|';
+
+    }
+
+    48% {
+        content: 'Photographe|';
+
+    }
+
+    49% {
+        content: 'Photograph|';
+
+    }
+
+    50% {
+        content: 'Photograp|';
+
+    }
+
+    51% {
+        content: 'Photogra|';
+
+    }
+
+    52% {
+        content: 'Photogr|';
+
+    }
+
+    53% {
+        content: 'Photog|';
+
+    }
+
+    54% {
+        content: 'Photo|';
+
+    }
+
+    55% {
+        content: 'Phot|';
+
+    }
+
+    56% {
+        content: 'Pho|';
+
+    }
+
+    57% {
+        content: 'Ph|';
+
+    }
+
+    58% {
+        content: 'P|';
+
+    }
+
+    59% {
+        content: '|';
+
+
+    }
+
+    60% {
+        content: ' S|';
+
+
+    }
+
+    61% {
+        content: ' Si|';
+
+
+    }
+
+    62% {
+        content: ' Sim|';
+
+
+    }
+
+    63% {
+        content: ' Simo|';
+
+
+    }
+
+    64% {
+        content: ' Simon|';
+
+
+    }
+
+    65% {
+        content: ' Simone|';
+
+
+    }
+
+    66% {
+        content: ' Simone |';
+
+
+    }
+
+    67% {
+        content: ' Simone O|';
+
+
+    }
+
+    68% {
+        content: ' Simone Ol|';
+
+
+    }
+
+    69% {
+        content: ' Simone Oli|';
+
+
+    }
+
+    70% {
+        content: ' Simone Oliv|';
+
+
+    }
+
+    71% {
+        content: ' Simone Olivi|';
+
+
+    }
+
+    72% {
+        content: ' Simone Olivia|';
+
+
+    }
+
+    73% {
+        content: ' Simone Olivia';
+
+
+    }
+
+    74% {
+        content: ' Simone Olivia|';
+
+
+    }
+
+    75% {
+        content: ' Simone Olivi|';
+
+
+    }
+
+    76% {
+        content: ' Simone Oliv|';
+
+
+    }
+
+    77% {
+        content: ' Simone Oli|';
+
+
+    }
+
+    78% {
+        content: ' Simone Ol|';
+
+
+    }
+
+    79% {
+        content: ' Simone O|';
+
+
+    }
+
+    80% {
+        content: ' Simone |';
+
+
+    }
+
+    81% {
+        content: ' Simone|';
+
+
+    }
+
+    82% {
+        content: ' Simon|';
+
+
+    }
+
+    83% {
+        content: ' Simo|';
+
+
+    }
+
+    84% {
+        content: ' Sim|';
+
+
+    }
+
+    85% {
+        content: ' Si|';
+
+
+    }
+
+    86% {
+        content: ' S|';
+
+
+    }
+
+    87% {
+        content: ' |';
+
+
+    }
+
+    88% {
+        content: ' L|';
+
+
+    }
+
+    89% {
+        content: ' LI|';
+
+
+    }
+
+    90% {
+        content: ' LIO|';
+
+
+    }
+
+    91% {
+        content: ' LION|';
+
+
+    }
+
+    92% {
+        content: ' LION';
+
+
+    }
+
+    93% {
+        content: ' LION|';
+
+
+    }
+
+    94% {
+        content: ' LION';
+
+
+    }
+
+    95% {
+        content: ' LION|';
+
+
+    }
+
+    96% {
+        content: ' LIO|';
+
+
+    }
+
+    97% {
+        content: ' LI|';
+
+
+    }
+
+    98% {
+        content: ' L|';
+
+
+    }
+
+    99% {
+        content: ' |';
+
+
+    }
+
+    100% {
+        content: ' |';
+
+
+    }
+}
+
+/* animation component end */
+/* home section  */
+.sec1 {
+
+
+    background-image: url(../image/hero-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.sec1::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: rgba(19, 18, 19, 0.1);
+}
+
+section .sec1 h1 {
+    font-size: 5rem;
+}
+
+/* about me section  */
+.sec2 {
+
+    margin: 3rem auto;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 0;
+    margin: 1rem 0;
+}
+
+.card-body p span {
+    font-weight: bolder;
+}
+
+.sec2 {
+    border: 4px solid rgba(72 122 180 / .1);
+
+}
+
+/* .underline component  */
+
+.underline-x {
+    position: relative;
+}
+
+.underline-x::after {
+    content: '';
+    width: 25%;
+    height: 3px;
+    background-color: #0078FF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all .5s;
+}
+
+/* .underline component end */
+/* Services section  */
+.sec2 h6 {
+    color: rgb(144, 143, 143);
+}
+
+.sec2 {
+    box-shadow: rgb(144, 143, 143);
+}
+
+.sec3 .btn-outline-primary,
+.circl-blue {
+    width: 7rem;
+    height: 7rem;
+    margin: auto;
+    border: .8rem solid #0078FF;
+
+}
+
+
+.sec3 {
+    background-color: #f4f7f9;
+}
+
+.sec3 .card,
+.sec5 .card {
+    border: 0;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+.sec3 div button svg {
+    transition: all .000002s .1s;
+}
+
+.sec3 div button svg {
+    background-color: white !important;
+}
+
+.sec3 div button:hover svg {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+
+.sec svg .text-bg-light {
+    background-color: RGBA(248, 249, 250, var(--bs-bg-opacity, 0)) !important;
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+}
+
+
+
+.sec3 .btn-outline-primary:hover {
+    border-color: #a7c0dd;
+
+}
+
+.head-sec {
+    position: relative;
+}
+
+.head-sec::after {
+    content: '';
+    width: 3rem;
+    height: .25rem;
+    background-color: #0078FF;
+    position: absolute;
+    left: 50%;
+    bottom: -20%;
+    text-align: center;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+
+
+/*  overlay  */
+.sec4 {
+
+    background-image: url(../image/post-3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    position: relative;
+}
+
+.sec4::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #0078FF;
+    opacity: .5;
+    top: 0;
+    left: 0;
+}
+
+.sec4 div div .cir-shadow {
+    width: 2rem;
+    height: 2rem;
+    border: .80rem solid #e6e8eb;
+    padding: .5rem;
+    color: #e5ecf3;
+    z-index: 3;
+
+}
+
+/* Portfolio  */
+.sec5 img {
+    transition: all .7s;
+    overflow: hidden;
+}
+
+.sec5 img:hover {
+    transform: scale(1.1);
+}
+
+.sec5 svg,
+.sec span {
+    color: #0078FF !important;
+}
+
+/* carousel  */
+.sec6 {
+    background-image: url(../image/overlay-bg.jpg);
+}
+
+.carousel-indicators,
+.carousel-caption {
+    position: unset !important;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+
+.sec7 div a {
+    font-size: .75rem;
+    font-weight: 400;
+}
+
+.card-footer+div {
+    width: 10%;
+}
+
+/* form section  */
+.sec8 .container {
+
+    position: relative;
+}
+
+.underline-xx {
+    position: relative;
+}
+
+.underline-xx::after {
+    content: '';
+    text-align: center;
+    width: 20%;
+    height: 3px;
+    background-color: #0078FF;
+    position: absolute;
+    left: 4%;
+    bottom: 0;
+    transition: all .5s;
+}
+
+.circl-blue {
+    width: fit-content;
+    height: fit-content;
+    padding: .85rem;
+    border: .2rem solid #0078FF;
+
+
+}
+
+form input,
+form textarea {
+    border: 1px solid #b9cce1;
+
+    color: #0078FF;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    :root {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    h1 {
+        font-size: 3rem !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 889px) {
+    h1 {
+        font-size: 4rem !important;
+    }
+}
